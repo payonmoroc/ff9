@@ -1,0 +1,43 @@
+{
+"Tools": {
+"Client Seed": "ON",
+"Basebet Pembagi": {
+        "Toggle": "OFF",
+        "Basebet": "10000000"
+        }
+},
+"Target Profit": {
+  "Target Profit": "20000",
+   "Relogin If Target Profit": {
+     "Toggle": "on",
+     "Interval": "700"
+      }
+},
+"Target Balance": {
+        "Target Balance": "5000000"
+},
+"Name Bet Set": "Gholem",
+"Base Bet" : "0.0000001",
+"Reset If Win Streak": "0",
+"Reset If Lose Streak": "0",
+"Reset If Profit": "0.00000001",
+"Interval": "1",
+"Chance": "49",
+"Random Chance": {
+        "Toggle": "on",
+        "Min": "5",
+        "Max": "29",
+        "If Base Bet": "0",
+        "Reset Chance": "1"
+        },
+"Bet": {
+"Bet": "Low",
+        "Hi / Low": {
+                "Toggle": "ON",
+                "If Lose Streak": "3",
+                "If Win Streak": "2",
+                "If Bets":"0",
+                "Random":"off"
+                }
+        }
+}
